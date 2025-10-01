@@ -6,14 +6,5 @@ public class Main {
 
         calc.add();
         calc.displayresult("+");
-
-        calc.subtract();
-        calc.displayresult("-");
-
-        calc.multiply();
-        calc.displayresult("*");
-
-        calc.divide();
-        calc.displayresult("/");
     }
 }
