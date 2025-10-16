@@ -29,6 +29,7 @@ public class calculator {
         }
         return result;
     }
+
     public void displayresult(String operator){
         System.out.println( num1 + " " + operator + " " + num2 + " = " + result);
     }
