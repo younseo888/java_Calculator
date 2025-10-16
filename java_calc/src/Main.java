@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         calculator calc = new calculator();
 
-        calc.setNumbers(10,2);
+        calc.setNumbers(3,5);
 
         calc.add();
         calc.displayresult("+");
@@ -11,5 +11,6 @@ public class Main {
         calc_mul.setNumbers(10,2);
         calc_mul.multiply();
         calc_mul.displayresult("*");
+
     }
 }
