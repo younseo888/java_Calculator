@@ -29,6 +29,12 @@ public class calculator {
         }
         return result;
     }
+    public int square(){
+        result = 1;
+        for(int i = 0; i < num2; i++)
+            result = result * num1;
+        return result;
+    }
 
     public void displayresult(String operator){
         System.out.println( num1 + " " + operator + " " + num2 + " = " + result);
