@@ -3,6 +3,10 @@ public class Main {
         calculator calc = new calculator();
 
         calc.setNumbers(3,3);
+
+        calc.add();
+        calc.displayresult("+");
+
         calc.multiply();
         calc.displayresult("*");
 

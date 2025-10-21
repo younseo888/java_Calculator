@@ -29,6 +29,7 @@ public class calculator {
         }
         return result;
     }
+
     public int square(){
         result = 1;
         for(int i = 0; i < num2; i++)

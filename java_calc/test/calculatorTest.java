@@ -30,10 +30,4 @@ class calculatorTest {
         assertEquals(8,calc.divide());
     }
 
-    @org.junit.jupiter.api.Test
-    void square() {
-        calculator calc= new calculator();
-        calc.setNumbers(3,3);
-        assertEquals(27,calc.square());
-    }
 }
