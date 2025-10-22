@@ -29,4 +29,5 @@ class calculatorTest {
         calc.setNumbers(48,6);
         assertEquals(8,calc.divide());
     }
+
 }
